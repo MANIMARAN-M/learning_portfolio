@@ -1,0 +1,482 @@
+html{
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+#banner{
+  width: 100%;
+  height: 100vh;
+  background-color: #dde1e7;
+  background-size: cover;
+  border-bottom: 3px solid #ff8585;
+}
+.logo{
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Fredoka One', cursive;
+    height: 6vh;
+    color: black;
+    padding: 25px 0 50px 0; 
+    border-bottom: 1px solid #ff8585;
+    width: 90%;
+    margin: 0 auto;
+}
+.logo h4{
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 2em;
+    font-weight: bold;
+    color: #00b3b4;
+        text-shadow: 3px 3px 0 #e7eef1,
+                     6px 6px 0 rgba(0, 0, 0, 0.1);
+}
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    width: 45%;
+    opacity: 50%;
+}
+.nav-links li{
+    list-style: none;
+    text-transform: uppercase;
+}
+.nav-links a{
+    text-decoration: none;
+    color: black;
+    letter-spacing: 3px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: all .5s;
+    /* color: #00b3b4;
+        text-shadow: 3px 3px 0 #e7eef1,
+                     6px 6px 0 rgba(0, 0, 0, 0.1); */
+}
+.nav-links a:focus{
+    opacity: 100%;
+    text-decoration: none;
+    color: #00b3b4;
+        text-shadow: 3px 3px 0 #e7eef1,
+                     6px 6px 0 rgba(0, 0, 0, 0.1);
+    
+}
+.nav-links a:hover{
+    opacity: 100%;
+    text-decoration: none;
+    color: #00b3b4;
+        text-shadow: 3px 3px 0 #e7eef1,
+                     6px 6px 0 rgba(0, 0, 0, 0.1);
+    
+}
+.home-c{
+    padding-top: 20%;
+    padding-left: 12%;
+    color: black;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.home-c h4,h3,p{
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+.home-c h3{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.home-c h4{
+    letter-spacing: 5px;
+     color: #f2395a;
+    transform: skew(-5deg, -5deg) rotate(5deg);
+    transform-origin: center center;
+    text-shadow: 1px 1px #d10e31,
+                    2px 2px #d10e31,
+                    3px 3px #d10e31,
+                    4px 4px #890920,
+                    5px 5px #890920;
+}
+.home-img{
+    margin-top: 60px;
+}
+.font-f{
+    font-family: 'Fredoka One', cursive !important;
+    color: #00b3b4;
+    text-shadow: 3px 3px 0 #e7eef1,
+                 6px 6px 0 rgba(0, 0, 0, 0.1);
+}
+/*---------------------------- About -------------------------------*/
+/* linear-gradint(#ff8585, #ff7192) */
+
+#btn-head{
+    background-color: #dde1e7;
+}
+
+.btn-a{
+    background-color: #ff8585;
+    color: black;
+    font-family: 'Fredoka One', cursive;
+    text-align: center;
+    width: 140px;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+.btn-p{
+    background-color: #ff8585;
+    color: black;
+    font-family: 'Fredoka One', cursive;
+    text-align: center;
+    width: 200px;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+#about-a{
+    width: 100%;
+    height: 100vh;
+    background-color: #dde1e7;
+    border-bottom: 3px solid #ff8585;
+    
+}
+.about-p{
+    position: relative; 
+    letter-spacing: 2px;
+    top: 100px;
+    left: 50px;
+    padding: 150px 0; 
+    background: #dde1e7;
+	border-radius: 10px;
+	box-shadow:  -3px -3px 7px #ffffff73,
+				2px 2px 5px rgba(94, 104, 121, 0.288 );
+}
+.about-p h1{
+    
+    font-family: 'Fredoka One', cursive;
+    text-transform: uppercase;
+    font-size: 1.5em;
+}
+.about-p p{
+    font-size: 1em;
+}
+.about-i img{
+    position: relative;
+    top: 100px;
+    background: #dde1e7;
+	border-radius: 10px;
+	box-shadow:  -3px -3px 7px #ffffff73,
+				2px 2px 5px rgba(94, 104, 121, 0.288 );
+}
+
+
+.tracker{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #000;
+}
+/*---------------------------- Project -------------------------------*/
+
+#project{
+    width: 100%;
+    height: 100vh;
+    background-color: #dde1e7;
+    border-bottom: 3px solid #ff8585;
+}
+.project-i img{
+    position: relative;
+    top: 100px;
+    background: #dde1e7;
+	border-radius: 10px;
+	box-shadow:  -3px -3px 7px #ffffff73,
+				2px 2px 5px rgba(94, 104, 121, 0.288 );
+}
+.project-p{
+    letter-spacing: 3px;
+    position: relative; 
+    top: 100px;
+    left: 50px;
+    padding: 100px 0; 
+    background: #dde1e7;
+	border-radius: 10px;
+	box-shadow:  -3px -3px 7px #ffffff73,
+				2px 2px 5px rgba(94, 104, 121, 0.288 );
+}
+.project-p h1{
+    
+    font-family: 'Fredoka One', cursive;
+    text-transform: uppercase;
+    font-size: 1.5em;
+}
+.project-p p{
+    font-size: 1em;
+}
+.corona-b{
+    background-color: #dde1e7;
+    font-weight: bold;
+    border: 1px solid #dde1e7;
+    color: #595959;
+    border-radius: 3px;
+	box-shadow:  -3px -3px 7px #ffffff73,
+				2px 2px 5px rgba(94, 104, 121, 0.288 );
+}
+.corona-b:hover{
+    transform: scale(0.9);
+    border-color: #dde1e7;
+	box-shadow: inset -3px -3px 7px #ffffff73,
+			inset 2px 2px 5px rgba(94, 104, 121, 0.288 );	
+}
+.corona-b:active{
+    border-color:  #fff;
+}
+/*---------------------------- Resume -------------------------------*/
+
+
+#resume{
+    width: 100%;
+    height: 100vh;
+    background-color: #dde1e7;
+    border-bottom: 3px solid #ff8585;
+}
+
+/*---------------------------- Contact -------------------------------*/
+
+
+#contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40vh;
+    background-color: #dde1e7;
+    text-align: center;
+}
+.icons-a{
+    display: flex;
+}
+
+.icons-a li{
+    position: relative;
+    list-style: none;
+    height: 50px;
+    width: 50px;
+    background-color: #dde1e7;
+    margin: 0 20px;
+    cursor: pointer;
+    border-radius: 50%;
+    box-shadow:  -3px -3px 7px #ffffff73,
+                 3px 3px 5px rgba(94, 104, 121, 0.288);
+}
+.icons-a li a{
+    line-height: 50px;
+    font-size: 20px;
+    color: #b6bbc5;
+}
+.first li.shadow{
+    box-shadow: inset -3px -3px 7px #ffffff73,
+                inset 3px 3px 5px rgba(94, 104, 121, 0.288);
+    
+}
+.first li.shadow a{
+    font-size: 22px;
+}
+li:nth-child(1).fill-color a{   
+    color: #333;
+}
+li:nth-child(2).fill-color a{
+    color: #e1306c;
+}
+li:nth-child(3).fill-color a{
+    color: #2867b2;
+}
+
+.contact-h{
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    font-family: 'Fredoka One', cursive;
+}
+.contact-p{
+    padding-top: 20px;
+    opacity: 80%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*---------------------------- Mobile -------------------------------*/
+
+@media screen and (max-width: 786px){
+    body{
+        overflow-x: hidden;
+    }
+    .logo{
+        display: block;
+        text-align: center;
+        justify-content: center;
+    }
+    .font-f{
+        padding-left: 40px;
+        font-size: 2em !important;
+    }
+    .home-p h4{
+        text-shadow: 1px 1px #d10e31,
+        2px 2px #d10e31,
+        3px 3px #890920;
+    }
+    .home-img{
+        padding-top: 20px;
+    }
+    .nav-links{
+        display: none;
+    }
+    .home-c{
+        font-size: 8px;
+    }
+    .about-i img{
+       top: 40px;
+    }
+    .about-p{
+        top: 60px;
+        left: 0;
+        margin: 20px 10px;
+        padding: 80px 0;
+    }
+    .about-p h1{
+        font-size: 1em;
+    }
+    .about-p p{
+        font-size: 0.5em;
+        padding-left: 0;
+    }
+    .project-i img{
+        top: 40px;
+    }
+    .project-p{
+        top: 60px;
+        left: 0;
+        margin: 20px 20px;
+        padding: 60px 0;
+    }
+    .project-p h1{
+        font-size: 1em;
+    }
+    .project-p p{
+        font-size: 0.5em;
+        padding-left: 0;
+    }
+    #contact{
+        height: 30vh;
+    }
+
+
+}
+
+/*---------------------------- Ihpone -------------------------------*/
+
+/* @media screen and (min-height: 730px){
+    .logo{
+        display: block;
+        text-align: center;
+        justify-content: center;
+    }
+    .about-p{
+        top: 60px;
+        padding: 80px 0;
+    }
+    .about-i img{
+        top: 40px;
+    }
+    .project-p{
+        top: 60px;
+        padding: 80px 0;
+    }
+    .project-i img{
+        top: 40px;
+    }
+} */
+/*---------------------------- iPhone X --------------*/
+/* @media screen and (min-width: 375px){
+    .logo{
+        display: block;
+        text-align: center;
+        justify-content: center;
+    }
+    .logo h4{
+        font-size: 1.8em;
+        padding-left: 0px; */
+        /* color: #f2395a;
+        transform: skew(-5deg, -5deg) rotate(5deg);
+        transform-origin: center center;
+        text-shadow: 1px 1px #d10e31,
+                     2px 2px #d10e31,
+                     3px 3px #d10e31,
+                     4px 4px #d10e31,
+                     5px 6px #d10e31,
+                     7px 7px #d10e31,       
+                     8px 8px #890920,
+                     8px 8px #890920,
+                     8px 8px #890920; */
+        /* color: #00b3b4;
+        text-shadow: 3px 3px 0 #e7eef1,
+                     6px 6px 0 rgba(0, 0, 0, 0.1);
+    }
+    .font-f{
+        font-size: 2em !important;
+    }
+    .home-img{
+        top: 10px;
+    }
+    .home-p {
+        padding-top: 150px;
+    }
+    .about-p{
+        top:110px;
+        padding:100px 0;
+    }
+    .about-p h1{
+        font-size: 16px;
+    }
+    .about-p p{
+        font-size: 12px;
+    }
+    .about-i img{
+        top: 60px;
+    }
+    .project-p{
+        top:110px;
+        padding:80px 0;
+    }
+    .project-p h1{
+        font-size: 16px;
+    }
+    .project-p p{
+        font-size: 12px;
+    }
+    .project-i img{
+        top: 60px;
+    }
+} */
+
+
+
+
+
+
+
+
+
+/* rgb(226, 226, 226) */
