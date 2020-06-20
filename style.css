@@ -311,6 +311,94 @@ li:nth-child(3).fill-color a{
 
 
 
+@media screen and (max-width: 1020px){
+    .nav-links{
+        display: none;
+    }
+    .home-c h3, p{
+        font-size: 12px;
+    }
+    .about-i img{
+        top: 40px;
+     }
+     .about-p, .project-p{
+         top: 60px;
+         left: 0;
+         margin: 20px 10px;
+         padding: 80px 0;
+     }
+     .about-p h1{
+         font-size: 1em;
+     }
+     .about-p p{
+         font-size: 0.5em;
+         padding-left: 0;
+     }
+     .project-i img{
+        top: 40px;
+    }
+    .project-p h1{
+        font-size: 1em;
+    }
+    .project-p p{
+        font-size: 0.5em;
+        padding-left: 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
